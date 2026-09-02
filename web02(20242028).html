@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .myDiv {
+            width: 345px;
+            height: 220px;
+            border: 2px solid #555;
+            padding: 10px;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #fff;
+            box-sizing: border-box;
+            overflow-y: scroll;
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        input[type="text"],
+        textarea {
+            border-top: 1px solid #777;
+            border-left: 1px solid #777;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            padding: 2px;
+            font-family: monospace;
+        }
+
+
+        textarea {
+            overflow-y: scroll;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="myDiv">
+        <form action="#">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" size="25" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" id="email" size="30" placeholder="Enter your email"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td>
+                        <textarea id="address" rows="5" cols="25" placeholder="Enter your address">
+</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="postcode">Postcode:</label></td>
+                    <td><input type="text" id="postcode" size="20" placeholder="Enter your postcode"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
