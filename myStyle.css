@@ -15,12 +15,14 @@ body {
 
 .my-Header {
     background-color: #FDEBDA;
-    height: 120px;
-    border: 1px solid #000;
+    height: 130px;
+    border: 1px solid brown;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
+    align-items: flex-end;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
 }
 
 .circle {
@@ -38,6 +40,8 @@ body {
 .nav-menu {
     display: flex;
     gap: 30px;
+    margin-right: 50px;
+    margin-bottom: 5px;
 }
 
 .nav-menu a {
